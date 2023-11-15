@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<htm lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Products and Service</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="icon" href="images/Logo.jpg" type="image/x-icon">
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var currentDate = new Date();
+                var footer = document.getElementById("footer");
+                footer.innerHTML = "Copyright SPRINKLETOGETHERORGANISATION" + currentDate.getFullYear();
+            });
+            
+        </script>
+    </head>
+<body class="products-service">
+    <header>
+        <h1> Products and Service</h1>
+    </header>
+    <nav>
+        <a href="Home.html">HomePage</a>
+        <a href="About Us.html">About Us</a>
+        <a href="Contact info.html">Contact Information</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Products and Service.html">Products and Service</a>
+        <a href="Contact.html">Contact</a>
+        
+    </nav>
+    <main>
+        <section class="product">
+            <img src="./images/Lunch box.jpg" alt="Product 1">
+            <h2>Product 1</h2>
+            <p> LunchBox for carrying food and fruits</p>
+            <p>Price: R50.00</p>
+        </section>
+        <section class="product">
+            <img src="./images/carepackage 1.jpeg" alt="Product 2">
+            <h2> Product 2</h2>
+        <p>Care package containing 5L Fishoil,750g Mayo,4x Tin Fish, 4x baked beans, 1kg Rice, 5kg Potatos.</p>
+        <p> Price: R149.99</p>
+        </section>
+        <section class="product">
+            <img src="./images/care package 3.jpeg" alt="Product 3">
+            <h2> Product 2</h2>
+        <p>Care package containing 5L Fishoil,750g Mayo,4x Tin Fish, 4x baked beans, 1kg Rice, 5kg Potatos, 5kg Maize Meal, Tea Bags, 2x Brown Onion Soup.</p>
+        <p> Price: R189.99</p>
+        </section>
+        <section class="donation">
+            <h2>Make a Donation</h2>
+            <form>
+          
+                <label for="amount">Donation Amount: </label> 
+                <input type="text" id="amount" name="amount" placeholder="R1000.00" required>
+                <br>
+                <label for="email">Your Email: </label>
+                <input type="email" id="email" name="email" placeholder="Your Email"required>
+                <br>
+                <button type="submit">Donate Now</button> 
+           </form>
+        </section>
+    </main>
+</body>
+<footer id="footer"> <h6>MAZIBUKO L|WEDE5020|ST10176153|MPEBE MERCY|@2012 All Right Reserved| </h6></footer>
+</html>
